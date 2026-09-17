@@ -1,0 +1,15 @@
+{
+  "name": "crate-engine",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "crate_engine_bg.wasm",
+    "crate_engine.js",
+    "crate_engine.d.ts"
+  ],
+  "main": "crate_engine.js",
+  "types": "crate_engine.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

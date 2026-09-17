@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algoritmo Doce v2.0 | Confeitaria Tech</title>
+  <meta name="description" content="Doces artesanais da Algoritmo Doce, com cardápio online, recomendações e pedidos pelo WhatsApp.">
+  <meta property="og:title" content="Algoritmo Doce | Confeitaria Tech">
+  <meta property="og:description" content="Escolha seus doces artesanais e faça seu pedido pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <canvas id="matrix-background" aria-hidden="true"></canvas>
+
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-code">&lt;</span>
+      <span class="logo-text">AlgoritmoDoce</span>
+      <span class="logo-code">/&gt;</span>
+      <span class="version-tag">v2.0</span>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#catalogo">Cardápio</a>
+      <a href="#recomendador">IA Recomendadora</a>
+      <a href="#faq">Ingredientes & FAQ</a>
+      <a href="#sobre-nos">Sobre Nós</a>
+      <a href="https://www.instagram.com/algoritmodoce.java?stkn=cDJqaW9hMGxndmRu&utm_source=qr" target="_blank" rel="noreferrer">Instagram</a>
+      <a class="btn-whatsapp" href="https://wa.me/5511979865999?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20na%20Algoritmo%20Doce.%20%F0%9F%8D%AB" target="_blank" rel="noreferrer">WhatsApp</a>
+    </nav>
+
+    <button id="btn-open-cart" class="btn-cart-trigger" aria-label="Abrir carrinho">
+      🛒 Carrinho
+      <span id="cart-badge" class="badge">0</span>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div id="status-badge" class="status-badge online">
+        <span class="status-dot"></span>
+        <span id="status-text" class="status-text">ONLINE | Cozinha Rodando</span>
+      </div>
+      <h1>Alta Confeitaria Compilada com Performance</h1>
+      <p><span id="typing-text"></span></p>
+      <p>Doces artesanais calculados em <strong>Rust WASM</strong> e recomendados pelo <strong>Assistente Algoritmo Doce</strong>.</p>
+    </div>
+  </section>
+
+  <!-- Seção Sobre Nós -->
+  <section id="sobre-nos" class="about-section">
+    <div class="about-image-wrapper">
+      <img src="assets/foto-fundador.jpg" alt="Fundador da Algoritmo Doce">
+    </div>
+    <div class="about-content">
+      <span class="tech-badge">🍫 Nossa história</span>
+      <h2>Sobre Nós</h2>
+      <p>A <strong>Algoritmo Doce</strong> nasceu da união entre a paixão pela tecnologia e a arte da confeitaria artesanal.</p>
+      <p>O que começou como um projeto paralelo enquanto eu estudava programação se transformou na minha principal fonte de renda e na realização de um sonho.</p>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="main-layout">
+    
+    <!-- Seção de Produtos -->
+    <section id="catalogo" class="products-section">
+      <div class="section-header">
+        <span class="section-kicker">CATÁLOGO_ARTESANAL</span>
+        <h2>Nosso Cardápio</h2>
+        <p>Selecione seus doces e adicione ao carrinho</p>
+      </div>
+
+      <div id="products-grid" class="products-grid">
+        <!-- Injetado dinamicamente via TypeScript -->
+      </div>
+    </section>
+
+    <!-- Seção IA Recomendadora (Python) -->
+    <section id="recomendador" class="ai-section card">
+      <div class="ai-header">
+        <span class="tech-badge">ASSISTENTE_ALGORITMO_DOCE</span>
+        <h2>Assistente do Desenvolvedor</h2>
+        <p>Conte como está seu dia e receba uma sugestão do nosso cardápio real.</p>
+      </div>
+
+      <div class="ai-controls">
+        <label for="select-estresse">Qual seu nível de estresse com código hoje?</label>
+        <select id="select-estresse">
+          <option value="baixo">🟢 Tranquilo, tudo funcionando</option>
+          <option value="medio">🟡 Focado, mas preciso de uma pausa</option>
+          <option value="alto">🟠 Correria e prazo apertado</option>
+          <option value="critico">🔴 Incêndio em produção</option>
+        </select>
+
+      </div>
+
+      <div id="resultado-recomendacao" class="ai-result" aria-live="polite" tabindex="-1"></div>
+    </section>
+
+    <!-- Ingredientes e FAQ -->
+    <section id="faq" class="docs-section">
+      <div class="section-header">
+        <span class="section-kicker">DOCS_DO_CARDÁPIO</span>
+        <h2>Ingredientes & FAQ</h2>
+        <p>Transparência sobre o que você está pedindo e respostas para as dúvidas mais comuns.</p>
+      </div>
+
+      <div class="docs-layout">
+        <div class="docs-panel">
+          <h3>Ingredientes</h3>
+          <ul id="ingredients-list" class="ingredients-list"></ul>
+        </div>
+
+        <div class="docs-panel">
+          <h3>Perguntas frequentes</h3>
+          <div id="faq-list" class="faq-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="reviews-section">
+      <div class="section-header">
+        <span class="section-kicker">FEEDBACK_DA_COMUNIDADE</span>
+        <h2>Quem já provou</h2>
+        <p>Experiências de quem combina código, café e confeitaria.</p>
+      </div>
+      <div id="reviews-list" class="reviews-list"></div>
+    </section>
+
+    <!-- Terminal interativo -->
+    <section class="terminal-section" aria-labelledby="terminal-title">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="terminal-dot terminal-dot-red"></span>
+          <span class="terminal-dot terminal-dot-yellow"></span>
+          <span class="terminal-dot terminal-dot-green"></span>
+          <span id="terminal-title" class="terminal-name">algoritmo-doce@prod:~</span>
+        </div>
+        <div class="terminal-body">
+          <div id="terminal-output" class="terminal-output" aria-live="polite">Terminal pronto. Digite <strong>ajuda</strong> para começar.</div>
+          <label class="terminal-input-line" for="terminal-input">
+            <span class="terminal-prompt">&gt;</span>
+            <input id="terminal-input" type="text" placeholder="digite um comando..." autocomplete="off" spellcheck="false">
+          </label>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sidebar / Drawer do Carrinho -->
+  <div id="cart-overlay" class="cart-overlay"></div>
+  <aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="cart-header">
+      <h3 id="cart-title">Seu Pedido</h3>
+      <button id="btn-close-cart" class="btn-close" aria-label="Fechar carrinho">&times;</button>
+    </div>
+
+    <div id="cart-items-list" class="cart-body">
+      <!-- Injetado dinamicamente via TypeScript -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal">R$ 0,00</span>
+        </div>
+        <div id="discount-row" class="summary-row discount" style="display: none;">
+          <span>Desconto (Rust WASM):</span>
+          <span id="discount-amount">- R$ 0,00</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total Final:</span>
+          <strong id="cart-total">R$ 0,00</strong>
+        </div>
+      </div>
+
+      <label class="payment-label" for="payment-method">Forma de pagamento</label>
+      <select id="payment-method" class="payment-select">
+        <option value="Pix">Pix</option>
+        <option value="Cartão de Crédito">Cartão de Crédito</option>
+        <option value="Cartão de Débito">Cartão de Débito</option>
+        <option value="Dinheiro">Dinheiro</option>
+      </select>
+
+      <button class="btn-checkout">Finalizar Pedido</button>
+    </div>
+  </aside>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

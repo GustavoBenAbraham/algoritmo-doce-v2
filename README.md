@@ -1,92 +1,211 @@
-Markdown
 # 🍬 Algoritmo Doce v2
 
 [![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen?style=flat-square)]()
-[![GitHub license](https://img.shields.io/github/license/GustavoBenAbraham/algoritmo-doce-v2?style=flat-square&color=blue)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/GustavoBenAbraham/algoritmo-doce-v2?style=flat-square)](https://github.com/GustavoBenAbraham/algoritmo-doce-v2/stargazers)
+[![GitHub License](https://img.shields.io/github/license/GustavoBenAbraham/algoritmo-doce-v2?style=flat-square\&color=blue)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/GustavoBenAbraham/algoritmo-doce-v2?style=flat-square)](https://github.com/GustavoBenAbraham/algoritmo-doce-v2/stargazers)
 
-> *Um projeto algorítmico desenvolvido com dedicação para explorar lógica, estruturação de código e resolução de problemas computacionais.*
-
----
-
-## 👨‍💻 Sobre Mim e o Projeto
-
-Olá! Me chamo **Gustavo Ben Abraham Silva**, sou estudante e este repositório representa uma grande evolução na minha jornada de aprendizado em programação. 
-
-O **Algoritmo Doce v2** é a segunda versão de um projeto focado em aprimorar meus conhecimentos lógicos e técnicos. **Esta é a primeira vez que estou mexendo com essas linguagens e ferramentas**, o que tornou o processo um verdadeiro desafio repleto de aprendizados. Cada linha de código aqui me ensinou muito sobre persistência, depuração de erros, boas práticas e funcionamento de sistemas.
+> 🍬 Um projeto que une programação, empreendedorismo e aprendizado prático, desenvolvido para transformar uma ideia de negócio em uma aplicação real.
 
 ---
 
-## ✨ O que este projeto me ensinou?
+## 📌 Sobre o Projeto
 
-Desenvolver esta versão (v2) foi um marco importante na minha trajetória acadêmica e prática. Alguns dos principais aprendizados foram:
-- **Lógica e Estruturação:** Como organizar o código de forma mais limpa, tipada e compreensível.
-- **Resolução de Problemas:** A lidar com bugs complexos, pesquisar soluções e entender a raiz dos erros.
-- **Primeiro Contato Tecnológico:** Superar a barreira de entrada ao trabalhar pela primeira vez com múltiplos ambientes e tecnologias aplicados aqui.
-- **Evolução Contínua:** Ver a diferença drástica entre a primeira versão e esta (v2), entendendo o valor de refatorar e melhorar código antigo.
+O **Algoritmo Doce v2** é a segunda versão de um projeto criado a partir da união entre **tecnologia e empreendedorismo**.
+
+A ideia nasceu de um negócio real de confeitaria artesanal e evoluiu para um projeto de programação, com o objetivo de transformar processos e necessidades reais em soluções digitais.
+
+Esta versão representa uma etapa importante da minha jornada como desenvolvedor, pois estou utilizando o projeto para colocar em prática conceitos de **lógica de programação, desenvolvimento web, organização de código, versionamento e resolução de problemas**.
+
+Mais do que apenas um exercício, o projeto busca mostrar como a programação pode ser utilizada para resolver problemas de um negócio real.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 👨‍💻 Sobre Mim
 
-Este projeto conta com a utilização das seguintes tecnologias e ferramentas:
-- **TypeScript** (Linguagem principal para tipagem e robustez na lógica)
-- **CSS** (Estilização, design e layout da interface)
-- **HTML** (Estruturação e marcação base)
-- **JavaScript** (Lógica de script e dinamismo)
-- **Rust** (Exploração inicial de alta performance em módulos específicos)
-- **Git & GitHub** (Versionamento de código)
+Olá! Meu nome é **Gustavo Ben Abraham Silva** e sou estudante de programação, atualmente direcionando minha carreira para o desenvolvimento de software.
+
+Comecei meus estudos em programação do zero e este projeto faz parte do meu processo de aprendizado.
+
+Durante o desenvolvimento do **Algoritmo Doce v2**, tive meu primeiro contato prático com algumas das tecnologias utilizadas no projeto. Isso trouxe diversos desafios, principalmente relacionados a erros, estruturação de código, integração entre tecnologias e organização do projeto.
+
+Cada problema encontrado se tornou uma oportunidade para pesquisar, testar e entender melhor como as ferramentas funcionam.
+
+> 💡 Este repositório documenta não apenas o resultado final, mas também parte da minha evolução como desenvolvedor.
+
+---
+
+## 🎯 Objetivos do Projeto
+
+O projeto tem como principais objetivos:
+
+* Aplicar conhecimentos de programação em um projeto real.
+* Desenvolver e aprimorar minha lógica de programação.
+* Praticar desenvolvimento web.
+* Aprender a trabalhar com diferentes tecnologias.
+* Melhorar a organização e estruturação do código.
+* Praticar Git e GitHub.
+* Aprender através de erros, pesquisas e refatorações.
+* Criar uma base para futuras funcionalidades do negócio.
+
+---
+
+## 📚 O que este projeto me ensinou?
+
+O desenvolvimento da versão 2 trouxe diversos aprendizados:
+
+### 🧠 Lógica e estruturação
+
+Aprendi a organizar melhor o código, separar responsabilidades e pensar na estrutura da aplicação antes de simplesmente começar a escrever código.
+
+### 🐛 Resolução de problemas
+
+Grande parte do aprendizado veio dos erros.
+
+Pesquisar mensagens de erro, testar hipóteses, encontrar a causa de um problema e implementar uma solução se tornou parte fundamental do processo.
+
+### 🔧 Novas tecnologias
+
+O projeto também foi uma oportunidade para ter contato com tecnologias e ferramentas que eu ainda não dominava.
+
+Isso me ajudou a entender melhor como diferentes partes de uma aplicação podem trabalhar juntas.
+
+### ♻️ Refatoração
+
+Comparar a primeira versão com a versão 2 mostrou na prática como um projeto pode evoluir.
+
+Código pode ser melhorado, reorganizado e simplificado conforme o conhecimento aumenta.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+Atualmente, o projeto utiliza ou explora as seguintes tecnologias:
+
+| Tecnologia     | Utilização                                  |
+| -------------- | ------------------------------------------- |
+| **TypeScript** | Desenvolvimento e tipagem da aplicação      |
+| **JavaScript** | Lógica e funcionalidades                    |
+| **HTML5**      | Estrutura da aplicação                      |
+| **CSS3**       | Estilização e layout                        |
+| **Rust**       | Estudos e exploração de módulos específicos |
+| **Git**        | Controle de versão                          |
+| **GitHub**     | Hospedagem e gerenciamento do código        |
+
+> ⚠️ Algumas tecnologias ainda estão em fase de exploração e aprendizado dentro do projeto.
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
-Se você quiser testar ou dar uma olhada no código na sua máquina:
+### 1. Clone o repositório
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/GustavoBenAbraham/algoritmo-doce-v2.git](https://github.com/GustavoBenAbraham/algoritmo-doce-v2.git)
-Entre na pasta do projeto:
+```bash
+git clone https://github.com/GustavoBenAbraham/algoritmo-doce-v2.git
+```
 
-Bash
+### 2. Entre na pasta
+
+```bash
 cd algoritmo-doce-v2
-Instale as dependências (se aplicável):
+```
 
-Bash
+### 3. Instale as dependências
+
+Caso o projeto utilize Node.js:
+
+```bash
 npm install
-Execute o projeto:
+```
 
-Bash
+### 4. Execute o projeto
+
+```bash
 npm run dev
-# ou abra o arquivo HTML correspondente no navegador
-📂 Estrutura do Repositório
-Plaintext
+```
+
+Depois, acesse o endereço exibido pelo terminal.
+
+> Caso a versão atual não utilize um servidor de desenvolvimento, os arquivos HTML podem ser executados diretamente pelo navegador.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
 algoritmo-doce-v2/
-├── src/               # Código-fonte principal e lógica (TypeScript/JS)
-├── public/ ou assets/ # Arquivos estáticos, estilos (CSS) e marcação (HTML)
-├── README.md          # Documentação do projeto
-└── package.json       # Dependências e scripts
-🗺️ Próximos Passos & Roadmap
-Como continuo estudando e evoluindo, pretendo implementar:
+│
+├── src/
+│   └── # Código-fonte principal
+│
+├── public/
+│   └── # Arquivos públicos e recursos estáticos
+│
+├── assets/
+│   └── # Imagens e outros recursos
+│
+├── README.md
+├── package.json
+└── ...
+```
 
-[ ] Refatoração contínua para otimizar a performance.
+> A estrutura pode sofrer alterações conforme o projeto evolui.
 
-[ ] Adição de novos recursos e tratamento de exceções.
+---
 
-[ ] Documentação ainda mais detalhada do código.
+## 🗺️ Roadmap
 
-🤝 Contribuindo
-Como sou estudante e este é um projeto de aprendizado pessoal, dicas, sugestões, críticas construtivas e Pull Requests são super bem-vindos! Se você tiver alguma dica de como posso melhorar meu código, fique à vontade para abrir uma Issue.
+O projeto continua em desenvolvimento.
 
-Faça um Fork do projeto
+### 🔜 Próximos passos
 
-Crie uma Branch para sua melhoria (git checkout -b feature/MelhoriaNoCodigo)
+* [ ] Refatorar e melhorar a organização do código.
+* [ ] Melhorar o tratamento de erros e exceções.
+* [ ] Adicionar novas funcionalidades.
+* [ ] Melhorar a responsividade da interface.
+* [ ] Criar uma documentação mais detalhada.
+* [ ] Implementar novas funcionalidades relacionadas ao negócio.
+* [ ] Melhorar performance e organização do projeto.
+* [ ] Integrar novas tecnologias conforme o aprendizado avança.
 
-Faça o Commit (git commit -m 'Dica: melhorando a estrutura X')
+---
 
-Faça o Push (git push origin feature/MelhoriaNoCodigo)
+## 🤝 Contribuindo
 
-Abra um Pull Request
+Este é principalmente um projeto de **aprendizado e portfólio pessoal**, mas sugestões e críticas construtivas são muito bem-vindas.
 
-📝 Licença
-Distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Se encontrar algum problema ou tiver uma ideia para melhorar o projeto, você pode abrir uma **Issue** ou enviar um **Pull Request**.
+
+### Fluxo básico
+
+```bash
+# Faça um Fork do projeto
+
+# Crie uma branch
+git checkout -b feature/minha-melhoria
+
+# Faça suas alterações
+
+# Faça o commit
+git commit -m "feat: adiciona nova funcionalidade"
+
+# Envie sua branch
+git push origin feature/minha-melhoria
+```
+
+Depois, abra um **Pull Request** no GitHub.
+
+---
+
+## 📈 Evolução
+
+O **Algoritmo Doce v2** faz parte de um processo maior de aprendizado.
+
+A proposta é continuar evoluindo o projeto à medida que novos conhecimentos forem adquiridos, transformando uma ideia inicial em uma aplicação cada vez mais completa.
+
+**Do código para o negócio. Do aprendizado para a prática. 🍬💻**
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença disponível no arquivo [LICENSE](LICENSE).

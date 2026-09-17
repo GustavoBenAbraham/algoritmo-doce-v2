@@ -1,101 +1,108 @@
 # 🍬 Algoritmo Doce v2
 
-[![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen?style=flat-square)]()
-[![GitHub License](https://img.shields.io/github/license/GustavoBenAbraham/algoritmo-doce-v2?style=flat-square\&color=blue)](LICENSE)
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen?style=flat-square)]()
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/GustavoBenAbraham/algoritmo-doce-v2?style=flat-square)](https://github.com/GustavoBenAbraham/algoritmo-doce-v2/stargazers)
 
-> 🍬 Um projeto que une programação, empreendedorismo e aprendizado prático, desenvolvido para transformar uma ideia de negócio em uma aplicação real.
+> **Um projeto real que conecta programação, tecnologia e empreendedorismo.**
+
+O **Algoritmo Doce v2** é uma aplicação web desenvolvida para acompanhar a evolução de um negócio real de confeitaria artesanal, enquanto também funciona como um projeto prático para minha formação como desenvolvedor.
+
+A segunda versão representa uma evolução significativa em relação à primeira, tanto em estrutura quanto nas tecnologias utilizadas.
 
 ---
 
-## 📌 Sobre o Projeto
+## 🍬 Sobre o Algoritmo Doce
 
-O **Algoritmo Doce v2** é a segunda versão de um projeto criado a partir da união entre **tecnologia e empreendedorismo**.
+A **Algoritmo Doce** nasceu da união entre duas áreas que fazem parte da minha trajetória:
 
-A ideia nasceu de um negócio real de confeitaria artesanal e evoluiu para um projeto de programação, com o objetivo de transformar processos e necessidades reais em soluções digitais.
+**💻 Tecnologia + 🍫 Confeitaria artesanal**
 
-Esta versão representa uma etapa importante da minha jornada como desenvolvedor, pois estou utilizando o projeto para colocar em prática conceitos de **lógica de programação, desenvolvimento web, organização de código, versionamento e resolução de problemas**.
+O projeto começou como uma ideia de negócio e, conforme meus estudos em programação avançaram, surgiu a oportunidade de transformar essa ideia em uma aplicação própria.
 
-Mais do que apenas um exercício, o projeto busca mostrar como a programação pode ser utilizada para resolver problemas de um negócio real.
+Em vez de utilizar apenas ferramentas prontas, decidi construir a solução por conta própria, utilizando o projeto como um laboratório para aprender desenvolvimento de software na prática.
 
----
-
-## 👨‍💻 Sobre Mim
-
-Olá! Meu nome é **Gustavo Ben Abraham Silva** e sou estudante de programação, atualmente direcionando minha carreira para o desenvolvimento de software.
-
-Comecei meus estudos em programação do zero e este projeto faz parte do meu processo de aprendizado.
-
-Durante o desenvolvimento do **Algoritmo Doce v2**, tive meu primeiro contato prático com algumas das tecnologias utilizadas no projeto. Isso trouxe diversos desafios, principalmente relacionados a erros, estruturação de código, integração entre tecnologias e organização do projeto.
-
-Cada problema encontrado se tornou uma oportunidade para pesquisar, testar e entender melhor como as ferramentas funcionam.
-
-> 💡 Este repositório documenta não apenas o resultado final, mas também parte da minha evolução como desenvolvedor.
+O objetivo é evoluir gradualmente a aplicação conforme o negócio e meus conhecimentos técnicos também evoluem.
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 🎯 Objetivos
 
-O projeto tem como principais objetivos:
+O projeto possui dois objetivos principais:
 
-* Aplicar conhecimentos de programação em um projeto real.
-* Desenvolver e aprimorar minha lógica de programação.
-* Praticar desenvolvimento web.
-* Aprender a trabalhar com diferentes tecnologias.
-* Melhorar a organização e estruturação do código.
-* Praticar Git e GitHub.
-* Aprender através de erros, pesquisas e refatorações.
-* Criar uma base para futuras funcionalidades do negócio.
+### 💻 Desenvolvimento
 
----
+Utilizar um projeto real para colocar em prática conceitos de programação, desenvolvimento web e engenharia de software.
 
-## 📚 O que este projeto me ensinou?
+### 🍫 Negócio
 
-O desenvolvimento da versão 2 trouxe diversos aprendizados:
+Criar ferramentas próprias para apoiar a operação, apresentação e evolução da Algoritmo Doce.
 
-### 🧠 Lógica e estruturação
-
-Aprendi a organizar melhor o código, separar responsabilidades e pensar na estrutura da aplicação antes de simplesmente começar a escrever código.
-
-### 🐛 Resolução de problemas
-
-Grande parte do aprendizado veio dos erros.
-
-Pesquisar mensagens de erro, testar hipóteses, encontrar a causa de um problema e implementar uma solução se tornou parte fundamental do processo.
-
-### 🔧 Novas tecnologias
-
-O projeto também foi uma oportunidade para ter contato com tecnologias e ferramentas que eu ainda não dominava.
-
-Isso me ajudou a entender melhor como diferentes partes de uma aplicação podem trabalhar juntas.
-
-### ♻️ Refatoração
-
-Comparar a primeira versão com a versão 2 mostrou na prática como um projeto pode evoluir.
-
-Código pode ser melhorado, reorganizado e simplificado conforme o conhecimento aumenta.
+Dessa forma, cada nova funcionalidade possui um contexto prático por trás dela.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🚀 Tecnologias
 
-Atualmente, o projeto utiliza ou explora as seguintes tecnologias:
+O projeto atualmente utiliza:
 
-| Tecnologia     | Utilização                                  |
-| -------------- | ------------------------------------------- |
-| **TypeScript** | Desenvolvimento e tipagem da aplicação      |
-| **JavaScript** | Lógica e funcionalidades                    |
-| **HTML5**      | Estrutura da aplicação                      |
-| **CSS3**       | Estilização e layout                        |
-| **Rust**       | Estudos e exploração de módulos específicos |
-| **Git**        | Controle de versão                          |
-| **GitHub**     | Hospedagem e gerenciamento do código        |
+* **TypeScript** — desenvolvimento e tipagem da aplicação
+* **JavaScript** — lógica e funcionalidades
+* **HTML5** — estrutura da aplicação
+* **CSS3** — estilização e interface
+* **Vite** — ambiente de desenvolvimento e build
+* **Rust** — experimentação através do módulo `crate-engine`
+* **Git** — controle de versão
+* **GitHub** — hospedagem e versionamento do projeto
 
-> ⚠️ Algumas tecnologias ainda estão em fase de exploração e aprendizado dentro do projeto.
+### Por que TypeScript?
+
+O TypeScript está sendo utilizado como uma das principais tecnologias do projeto para melhorar a organização e a segurança do código através de tipagem estática.
+
+Como estudante, também utilizo o projeto para entender na prática as diferenças entre JavaScript e TypeScript.
+
+### E o Rust?
+
+O diretório `crate-engine` faz parte da exploração de Rust dentro do projeto.
+
+A utilização de Rust ainda está em desenvolvimento e faz parte da minha experimentação com diferentes tecnologias e possibilidades de arquitetura.
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 📂 Estrutura do Projeto
+
+```text
+algoritmo-doce-v2/
+│
+├── .github/
+│   └── workflows/       # Automação e workflows do GitHub
+│
+├── crate-engine/        # Módulo experimental em Rust
+│
+├── public/              # Arquivos públicos da aplicação
+│
+├── src/                 # Código-fonte principal
+│
+├── .gitignore           # Arquivos ignorados pelo Git
+├── index.html           # Página principal
+├── package.json         # Dependências e scripts
+├── package-lock.json    # Controle das versões das dependências
+├── tsconfig.json        # Configurações do TypeScript
+├── vite.config.ts       # Configurações do Vite
+├── LICENSE              # Licença do projeto
+└── README.md            # Documentação
+```
+
+---
+
+## ⚙️ Como executar
+
+### Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+* [Node.js](https://nodejs.org/)
+* npm
 
 ### 1. Clone o repositório
 
@@ -111,101 +118,143 @@ cd algoritmo-doce-v2
 
 ### 3. Instale as dependências
 
-Caso o projeto utilize Node.js:
-
 ```bash
 npm install
 ```
 
-### 4. Execute o projeto
+### 4. Inicie o ambiente de desenvolvimento
 
 ```bash
 npm run dev
 ```
 
-Depois, acesse o endereço exibido pelo terminal.
-
-> Caso a versão atual não utilize um servidor de desenvolvimento, os arquivos HTML podem ser executados diretamente pelo navegador.
+O Vite irá disponibilizar a aplicação localmente e informar no terminal o endereço para acesso.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🧠 Aprendizados
 
-```text
-algoritmo-doce-v2/
-│
-├── src/
-│   └── # Código-fonte principal
-│
-├── public/
-│   └── # Arquivos públicos e recursos estáticos
-│
-├── assets/
-│   └── # Imagens e outros recursos
-│
-├── README.md
-├── package.json
-└── ...
-```
+Este projeto faz parte da minha transição para a área de desenvolvimento de software.
 
-> A estrutura pode sofrer alterações conforme o projeto evolui.
+Durante sua construção, estou utilizando a aplicação para praticar conceitos como:
+
+* Lógica de programação
+* TypeScript
+* JavaScript
+* Desenvolvimento web
+* Estruturação de projetos
+* Organização de código
+* Tipagem estática
+* Git e GitHub
+* Vite
+* Debugging e resolução de problemas
+* Exploração de diferentes tecnologias
+* Refatoração e evolução de código
+
+Um dos principais objetivos é aprender **construindo**.
+
+Por isso, o projeto está em constante evolução e algumas partes podem ser experimentais.
 
 ---
 
 ## 🗺️ Roadmap
 
-O projeto continua em desenvolvimento.
+O Algoritmo Doce v2 continua em desenvolvimento.
 
-### 🔜 Próximos passos
+### Em andamento
 
-* [ ] Refatorar e melhorar a organização do código.
-* [ ] Melhorar o tratamento de erros e exceções.
-* [ ] Adicionar novas funcionalidades.
-* [ ] Melhorar a responsividade da interface.
-* [ ] Criar uma documentação mais detalhada.
-* [ ] Implementar novas funcionalidades relacionadas ao negócio.
-* [ ] Melhorar performance e organização do projeto.
-* [ ] Integrar novas tecnologias conforme o aprendizado avança.
+* [ ] Evoluir a interface da aplicação
+* [ ] Melhorar a arquitetura do projeto
+* [ ] Refatorar componentes e lógica
+* [ ] Melhorar tratamento de erros
+* [ ] Expandir o uso de TypeScript
+* [ ] Evoluir o módulo experimental em Rust
+
+### Futuro
+
+* [ ] Adicionar novas funcionalidades relacionadas ao negócio
+* [ ] Melhorar responsividade
+* [ ] Criar documentação técnica mais detalhada
+* [ ] Melhorar testes e qualidade do código
+* [ ] Estruturar novas integrações
+* [ ] Publicar uma versão de produção
+
+> O roadmap pode mudar conforme novas necessidades do projeto surgirem.
 
 ---
 
-## 🤝 Contribuindo
+## 📸 Preview
 
-Este é principalmente um projeto de **aprendizado e portfólio pessoal**, mas sugestões e críticas construtivas são muito bem-vindas.
+> 🚧 Screenshots e demonstração da aplicação serão adicionados conforme o projeto evoluir.
 
-Se encontrar algum problema ou tiver uma ideia para melhorar o projeto, você pode abrir uma **Issue** ou enviar um **Pull Request**.
+---
 
-### Fluxo básico
+## 📈 Evolução do Projeto
+
+O **Algoritmo Doce v2** não pretende ser apenas um projeto de estudo.
+
+Ele representa uma abordagem que estou utilizando para aprender programação:
+
+> **Aprender uma tecnologia é importante. Aprender utilizando essa tecnologia para construir algo real é ainda melhor.**
+
+A cada versão, novas tecnologias, conceitos e melhorias serão incorporados ao projeto.
+
+A primeira versão foi o ponto de partida.
+
+A **v2 é o começo de uma aplicação construída com uma visão mais estruturada de desenvolvimento de software.**
+
+---
+
+## 🤝 Contribuições
+
+Este é um projeto pessoal de aprendizado e desenvolvimento, mas sugestões e contribuições são bem-vindas.
+
+Caso encontre algum problema ou tenha uma sugestão:
+
+1. Abra uma **Issue**
+2. Descreva o problema ou a sugestão
+3. Se quiser contribuir diretamente, faça um **Fork**
+4. Crie uma branch para sua alteração
 
 ```bash
-# Faça um Fork do projeto
-
-# Crie uma branch
 git checkout -b feature/minha-melhoria
+```
 
-# Faça suas alterações
+Depois:
 
-# Faça o commit
+```bash
+git add .
 git commit -m "feat: adiciona nova funcionalidade"
-
-# Envie sua branch
 git push origin feature/minha-melhoria
 ```
 
-Depois, abra um **Pull Request** no GitHub.
+Então abra um **Pull Request**.
 
 ---
 
-## 📈 Evolução
+## 👨‍💻 Desenvolvedor
 
-O **Algoritmo Doce v2** faz parte de um processo maior de aprendizado.
+**Gustavo Ben Abraham Silva**
 
-A proposta é continuar evoluindo o projeto à medida que novos conhecimentos forem adquiridos, transformando uma ideia inicial em uma aplicação cada vez mais completa.
+Estudante de programação e desenvolvedor em formação, construindo projetos próprios para transformar conhecimento em experiência prática.
 
-**Do código para o negócio. Do aprendizado para a prática. 🍬💻**
+### Onde me encontrar
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-ben-abraham-silva-81058119b/)
+* 🐙 [GitHub](https://github.com/GustavoBenAbraham)
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença disponível no arquivo [LICENSE](LICENSE).
+Este projeto está licenciado sob a **MIT License**.
+
+Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+---
+
+<p align="center">
+  🍬 <strong>Algoritmo Doce</strong>
+  <br>
+  Código, criatividade e confeitaria.
+</p>

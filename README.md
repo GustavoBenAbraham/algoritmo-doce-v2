@@ -1,3 +1,5 @@
+**Português** | [English](README.en.md)
+
 # 🍬 Algoritmo Doce v2
 
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen?style=flat-square)]()
